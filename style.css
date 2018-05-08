@@ -1,0 +1,344 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+body{
+	background: url("images/rocky-shore.jpg") no-repeat center center fixed;
+    background-color: lightblue;
+    background-blend-mode: luminosity;
+  	background-size: cover;
+  	height: 100%;
+  	overflow: hidden;
+}
+
+.slide1{
+	background-color: white;
+    width: 1080px;
+	height: 450px;
+	margin: 30px auto;
+	border-radius: 10px;
+}
+
+.react{
+	width:200px;
+	height:70px;
+	border-radius: 30px;
+	background-color: black;
+	margin: 10px auto;
+}
+
+#logo{
+	width: 50px;
+    height: 45px;
+    margin: 13px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#txt{
+	margin: 9px;
+    display: inline-block;
+    font-family: Calibri, sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.black{
+  	background-image: url("images/grand-canyon.jpg");
+  	background-color: dimgray;
+  	background-blend-mode: multiply;
+
+    width: 200px;
+	height: 450px;
+	display: inline-block;
+	border-radius: 10px 0px 0px 10px;
+	vertical-align: top;
+}
+
+.sec1{
+    width: 199px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.sec1:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    border-bottom: 1px solid white;
+}
+
+.sec2{
+    width: 199px;
+    height: 60px;
+    display: inline-block;
+}
+
+.sec3{
+    border-top: 1px solid white;
+    padding-top: 10px;
+    width: 199px;
+    height: 285px;
+    display: inline-block;
+}
+
+
+.white{
+	background-color: #F9F2F4;
+    width: 876px;
+	height: 450px;
+	display: inline-block;
+	border-radius: 0px 10px 10px 0px;
+}
+
+.row1{
+    width: 876px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 0px 10px 0px 0px;
+    background-color: white;
+}
+
+.row2{
+    width: 876px;
+    height: 130px;
+    display: inline-block;
+    background-color: lightgray;
+}
+
+.row3{
+    width: 876px;
+    height: 243px;
+    display: inline-block;
+    background-color: lightgray;
+}
+
+.row4{
+    width: 876px;
+    height: 27px;
+    display: inline-block;
+    background-color: lightgray;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.dash{
+    height: 25px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 13px 10px;
+    background-size: cover;
+    background-color: white;
+}
+
+.snap{
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 8px;
+    border-radius: 2px;
+    background-size: cover;
+    background-color: white;
+}
+
+.data{
+    width: 420px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 8px;
+    border-radius: 2px;
+    background-size: cover;
+    background-color: white;
+}
+
+.datahead{
+    width: 850px;
+    height: 44px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 8px;
+    padding: 5px;
+    border-radius: 2px 2px 0px 0px;
+    background-size: cover;
+    background-color: white;
+    font-family: Calibri, sans-serif;
+}
+
+.more{
+    height: 22px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 8px;
+    border-radius: 2px 2px 0px 0px;
+    background-size: cover;
+    background-color: white;
+
+}
+
+.map{
+    width: 400px;
+    height: 180px;
+    object-fit: fill;
+    margin: 5px 10px;
+}
+
+#logo1{
+    width: 28px;
+    height: 25px;
+    margin: 13px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#txt1{
+    margin: 16px 6px;
+    display: inline-block;
+    font-family: Calibri, sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+#userphoto{
+    width: 30px;
+    height: 30px;
+    margin: 15px 12px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 50%;
+}
+#username{
+    margin: 20px 6px;
+    display: inline-block;
+    font-family: Calibri, sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+.menuicon{
+    width: 30px;
+    height: 25px;
+    margin: 5px 12px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menudesc{
+    margin: 8px 6px;
+    display: inline-block;
+    font-family: Calibri, sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+.sub:hover{
+    background-color: gray;
+}
+
+#pipe{
+    width: 30px;
+    height: 30px;
+    margin: -3px -1px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.flag{
+    width: 25px;
+    height: 20px;
+    margin: 5px 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.country, .saledetails{
+    margin: 5px 0px;
+    display: inline-block;
+    font-family: Calibri, sans-serif;
+    font-size: 15px;
+}
+
+
+.finder{
+    width: 20px;
+    height: 20px;
+    margin: 3px 1px;
+    vertical-align: top;
+}
+
+.search{
+    width: 377px;
+    height: 25px;
+    margin: 0px -3px;
+    border: none;
+}
+
+.elem{
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    display: inline-block;
+    margin: 2px 1px;
+    padding:0px 18px;
+}
+
+.r1{
+    width: 52px;
+    height: 67px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 0px;
+    background-size: cover;
+}
+.r2{
+    width: 144px;
+    height: 67px;
+    display: inline-block;
+    font-family: Calibri, sans-serif;
+}
+
+.r2 h5{
+    font-size: 24px;
+}
+
+.r2 p{
+    font-size: 16px;
+}
+
+.r2 h5,p{
+    margin: 4px 24px;
+    /*width:75px;*/
+}
+
+.r3{
+    width: 200px;
+    height: 33px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 0px;
+    background-size: cover;
+}
+
+.r3:before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    border-top: 1px solid lightgray;
+}
+
+.r3 i{
+    margin: 8px;
+    color: lightgray;
+    /*font-family: Calibri, sans-serif;*/
+}
+
+.img{
+    width: 40px;
+    height: 35px;
+    margin: 17px 6px;
+
+}
